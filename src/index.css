@@ -1,0 +1,40 @@
+/* Global stillar */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Varible */
+:root {
+  --color-primeri: #0eb4c1;
+  --color-wihte: #fff;
+  --color-hero-button: #de2e54;
+  --color-black: #222222;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  background-color: var(--color-wihte);
+  font-family: "Open Sans Variable", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.Hero {
+  background-color: var(--color-primeri);
+}
+.CTA {
+  background-color: var(--color-primeri);
+}
+.Footer {
+  background-color: var(--color-black);
+}
