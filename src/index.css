@@ -112,4 +112,7 @@ nav {
   text-decoration: none;
   color: var(--color-wihte);
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
